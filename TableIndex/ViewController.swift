@@ -61,6 +61,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        table.backgroundColor = .systemGray
         view.addSubview(table)
         table.snp.makeConstraints {
             $0.edges.equalToSuperview()
